@@ -74,7 +74,7 @@ const Login = () => {
                                     </div>
                                     <div className="flex items-center gap-3 text-gray-600">
                                         <MapPin size={20} className="text-gold" />
-                                        <span>Kochi, Kerala</span>
+                                        <span>Kunnamkulam, Thrissur, Kerala</span>
                                     </div>
                                 </div>
                             </div>
