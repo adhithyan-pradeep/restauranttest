@@ -17,7 +17,7 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Home', path: '/restaurant' },
+    { name: 'Home', path: '/' },
     { name: 'Menu', path: '/menu' },
     { name: 'Party', path: '/party' },
     { name: 'Mess', path: '/mess' },
@@ -36,7 +36,7 @@ const Navbar = () => {
     >
       <div className="container flex-between">
         {/* Logo */}
-        <Link to="/restaurant-webpage" className="flex items-center gap-2 group">
+        <Link to="/" className="flex items-center gap-2 group">
           <div className="text-2xl md:text-3xl font-heading font-bold tracking-tight text-gray-900">
             KL10 <span className="text-gold">RESTAURANT</span>
           </div>

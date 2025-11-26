@@ -27,7 +27,7 @@ function App() {
           <AnimatePresence mode="wait">
             <Routes location={location} key={location.pathname}>
               {/* Public Routes */}
-              <Route path="/restaurant" element={<PageTransition><Home /></PageTransition>} />
+              <Route path="/" element={<PageTransition><Home /></PageTransition>} />
               <Route path="/menu" element={<PageTransition><Menu /></PageTransition>} />
               <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
               <Route path="/login" element={<PageTransition><Login /></PageTransition>} />
