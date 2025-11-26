@@ -27,7 +27,7 @@ const Contact = () => {
                                     <MapPin className="text-gold shrink-0 mt-1" size={24} />
                                     <div>
                                         <h3 className="font-bold mb-1">Address</h3>
-                                        <p className="text-gray-600">123, Marine Drive, Kochi, Kerala - 682031</p>
+                                        <p className="text-gray-600">Kunnamkulam, Thrissur, Kerala - 680503</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-4">
@@ -42,7 +42,7 @@ const Contact = () => {
                                     <Mail className="text-gold shrink-0 mt-1" size={24} />
                                     <div>
                                         <h3 className="font-bold mb-1">Email</h3>
-                                        <p className="text-gray-600">hello@keralarestaurant.com</p>
+                                        <p className="text-gray-600">hello@kl10restaurant.com</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-4">

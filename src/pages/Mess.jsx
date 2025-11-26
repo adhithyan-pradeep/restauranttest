@@ -10,7 +10,6 @@ const Mess = () => {
         e.preventDefault();
         setCheckStatus('checking');
         setTimeout(() => {
-            // Mock logic: Pincodes starting with '68' are serviceable (Kerala common prefix)
             if (pincode.startsWith('68') && pincode.length === 6) {
                 setCheckStatus('available');
             } else {
@@ -93,7 +92,7 @@ const Mess = () => {
                             <h2 className="text-2xl m-0">Check Availability</h2>
                         </div>
                         <p className="text-gray-300 mb-6">
-                            Enter your pincode to see if we deliver to your area. We currently serve major areas in Kochi.
+                            Enter your pincode to see if we deliver to your area. We currently serve major areas in Thrissur.
                         </p>
 
                         <form onSubmit={checkDelivery} className="mb-6">
